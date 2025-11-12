@@ -1,0 +1,3 @@
+[submodule "site/themes/Scholar-Lite"]
+	path = site/themes/Scholar-Lite
+	url = https://github.com/yiming-m/Scholar-Lite.git

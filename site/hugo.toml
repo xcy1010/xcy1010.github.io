@@ -1,0 +1,14 @@
+baseURL = "https://xcy1010.github.io/"
+languageCode = "zh-cn"
+title = "学术主页"
+theme = "Scholar-Lite"
+
+[params]
+  bio = """
+  这里是你的学术主页简介。支持 **Markdown** 格式。
+  """
+  profilePhoto = "/images/profile.jpg"
+
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/xcy1010"
