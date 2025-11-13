@@ -1,11 +1,12 @@
 baseURL = "https://xcy1010.github.io/"
 languageCode = "zh-cn"
-title = "学术主页"
+title = "XCY · 个人学术主页"
 theme = "Scholar-Lite"
 
 [params]
   bio = """
-  这里是你的学术主页简介。支持 **Markdown** 格式。
+  我是 XCY，从事机器学习/多模态表示学习相关研究，关注方法的可复现性与实际应用落地。
+  近期工作包括：ECG 信号分类、医学影像多模态学习等。
   """
   profilePhoto = "/images/profile.jpg"
 
