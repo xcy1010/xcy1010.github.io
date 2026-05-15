@@ -17,42 +17,179 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Master's student in Cyberspace Security at Xidian University, conducting research at the Xidian University Guangzhou Research Institute under the supervision of Prof. Hao Wang. Previously, I earned a Bachelor's degree in Computer Science and Technology from Tianjin University of Technology, along with a dual degree in Management Information Systems from the University of Quebec.
+I am a Master's student in Cyberspace Security at Xidian University, conducting research at the Xidian University Guangzhou Research Institute under the supervision of Prof. Hao Wang. Previously, I earned a Bachelor's degree in Computer Science and Technology from Tianjin University of Technology.
 
-My research interests primarily lie in **diffusion model acceleration**, **multimodal cardiac diagnosis**, and **neuro-symbolic reasoning**. I am particularly interested in leveraging advanced architectures like Mamba (State-Space Models) for processing long-sequence physiological signals. Currently, I am leading the **Cardio-Verse (心视界)** project, an AI-driven multimodal cardiac diagnostic platform. 
+My research interests primarily lie in **diffusion model acceleration**, **multimodal cardiac diagnosis**, and **neuro-symbolic reasoning**. I am particularly interested in leveraging advanced architectures like Mamba (State-Space Models) for processing long-sequence physiological signals, and exploring statistically optimal acceleration techniques for large generative models. Currently, I am leading the **Cardio-Verse (心视界)** project, an AI-driven multimodal cardiac diagnostic platform. 
 
-I have published and presented my research at top international academic venues including ICASSP, ICME, and BIBM.
+I have published and presented my research at top international academic venues including ICML, ICASSP, ICME, and BIBM.
 
 # 🔥 News
 - *2026.05*: &nbsp;🎉🎉 I will be traveling to Barcelona, Spain to present my first-author papers at **ICASSP 2026**.
 - *2026.01*: &nbsp;🚀🚀 Officially launched the **Cardio-Verse (心视界)** multimodal cardiac diagnostic platform project.
 - *2025.12*: &nbsp;🎉🎉 Our paper on Hierarchical Latent Diffusion Models (H-LDM) for PCG synthesis was accepted at **BIBM 2025**.
+- *2025.11*: &nbsp;🎉🎉 Our paper "EigenCache: Rethinking Diffusion Acceleration" was submitted.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/physiomamba_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/eigencache_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[EigenCache: Rethinking Diffusion Acceleration as Covariance-Optimal Forecasting and Submodular Information Allocation](#)
+
+**Chenyang Xu**, Dezhen Wang, Lin Chen, et al.
+
+**ICML 2026** 
+
+[**PDF**](#) | [**Code**](#)
+- Proposed EigenCache, a theoretically grounded framework that re-frames diffusion acceleration as a problem of covariance learning and optimal experimental design. It replaces rigid polynomial bases with a covariance-optimal forecaster (Kriging) and selects anchor timesteps via a provably near-optimal submodular information schedule, establishing a new Pareto frontier for efficient inference.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/cross_modal_synthesis_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Unlocking Cross-Modal Biosignal Synthesis: A Temporally-Aware VAE-Diffusion Model](#)
+
+**Chenyang Xu**, Dezhen Wang, Hao Wang.
+
+**ICML 2026**
+
+[**PDF**](#) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/cardiac_murmur_grading_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Cardiac murmur grading and risk analysis of cardiac diseases based on adaptable heterogeneous-modality multi-task learning](#)
+
+**Chenyang Xu***, Xin Li*, Xinyue Zhang, et al.
+
+**Health Information Science and Systems, 2024**
+
+[**PDF**](#) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/h_ldm_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[H-LDM: Hierarchical Latent Diffusion Models for Controllable and Interpretable PCG Synthesis from Clinical Metadata](#)
+
+**Chenyang Xu**, Siming Li, Hao Wang.
+
+**BIBM 2025** (Oral Presentation)
+
+[**PDF**](#) | [**Code**](#)
+- 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/physiomamba_cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PhysioMamba: Physics-Informed ST-Mamba Diffusion for Controllable Echocardiogram Synthesis](#)
 
-**Chenyang Xu**, Hao Wang, et al.
+**Chenyang Xu**, et al.
+
+**ICME 2026**
 
 [**PDF**](#) | [**Code**](#)
 - Proposed a novel physics-informed spatio-temporal Mamba diffusion model designed to synthesize high-fidelity, controllable echocardiogram videos, accelerating the generation process while maintaining physiological accuracy.
 </div>
 </div>
 
-- [H-LDM: Hierarchical Latent Diffusion Models for Controllable and Interpretable PCG Synthesis from Clinical Metadata](#), **Chenyang Xu**, Hao Wang, et al., **BIBM 2025**
-- [Enhancing Respiratory Sound Detection Through Integrated Learning and Dynamic Convolutional Recurrent Neural Networks](#), **Chenyang Xu**, et al.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/cardiomanifold_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CardioManifold: Direct Pathological PCG Synthesis via Cyclic-Mamba and Phase-Preserving Manifold Diffusion](#)
+
+**Chenyang Xu**, et al.
+
+**ICME 2026**
+
+[**PDF**](#) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/enhancing_respiratory_sound_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enhancing Respiratory Sound Detection Through Integrated Learning and Dynamic Convolutional Recurrent Neural Networks](#)
+
+**Chenyang Xu***, Yuanbing Ouyang*, Ziye Chen, Hao Wang.
+
+**BioCAS 2024**
+
+[**PDF**](#) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/disentangling_physiology_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Disentangling Physiology from Fidelity: Latent-Guided Diffusion Models for Cross-Modal Cardiac Synthesis](#)
+
+**Chenyang Xu**, Siming Li, Wensai Xuan, Hao Wang.
+
+**ICASSP 2026**
+
+[**PDF**](#) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/adagrad_fusion_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AdaGrad-Fusion: Adaptive Gradient Fusion for Memory-Efficient ECG Foundation Model Fine-Tuning](#)
+
+**Chenyang Xu**, Yi Zhao, Zezhou Zhang, Hao Wang.
+
+**ICASSP 2026**
+
+[**PDF**](#) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/cardiobridge_dm_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CardioBridge-DM: Bridging Cross-Cohort Heart Sound Synthesis via Rhythm-Aware Semi-Supervised Diffusion](#)
+
+**Chenyang Xu**, Siming Li, Hao Wang.
+
+**ICASSP 2026**
+
+[**PDF**](#) | [**Code**](#)
+- 
+</div>
+</div>
 
 # 🎖 Honors and Awards
-- *2026.03* Core Participant, "Challenge Cup" (挑战杯) and "Internet+" (互联网+) Innovation Competitions.
+- *2024* Second Place, IEEE BioCAS Grand Challenge
+- *2025* IEEE BIBM Student Travel Grant
+- *202x* Gold Award, "Internet+" Innovation and Entrepreneurship Competition (Tianjin)
+- *202x* Grand Prize, Group Programming Ladder Tournament (GPLT) (Tianjin)
+- *202x* First Prize, Lanqiao Cup National Software and Information Technology Professionals Competition (Tianjin)
+- *202x* Bronze Award, "Challenge Cup" National College Student Extracurricular Academic Science and Technology Works Competition (Tianjin)
+- *202x* Third Prize, 4th China Postgraduate FinTech Innovation Competition
+- *2024* Outstanding Graduate Student, Xidian University
+- *2024* First-class Graduate Academic Scholarship, Xidian University
+- *2021-2023* First-class People's Scholarship (Three Consecutive Years), Tianjin University of Technology
 
 # 📖 Education
 - *2024.09 - Present*, M.Eng. in Cyberspace Security, Xidian University (Guangzhou Research Institute).
 - *2020.09 - 2024.06*, B.Eng. in Computer Science and Technology, Tianjin University of Technology.
-- *2020.09 - 2024.06*, B.B.A. in Management Information Systems, University of Quebec.
 
 # 💻 Projects & Experience
-- *2026.01 - Present*, Project Lead, **Cardio-Verse (心视界)**
+- *2024.12 - Present*, Project Lead, **Large Model Inference Optimization in Resource-Constrained Environments** (Ant Group & School of Cyber Engineering Innovation Project)
+- *2024.09 - Present*, Project Lead, **Cardio-Verse (心视界)**
   - Leading the research and development of a multimodal cardiac diagnostic platform. Responsible for algorithm design and multimodal data integration.
+- *2023.02 - 2024.09*, Research Assistant, **National Institute of Health Data Science at Peking University**
