@@ -17,42 +17,42 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a Master's student in Cyberspace Security at Xidian University, conducting research at the Xidian University Guangzhou Research Institute under the supervision of Prof. Hao Wang. Previously, I earned a Bachelor's degree in Computer Science and Technology from Tianjin University of Technology, along with a dual degree in Management Information Systems from the University of Quebec.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interests primarily lie in **diffusion model acceleration**, **multimodal cardiac diagnosis**, and **neuro-symbolic reasoning**. I am particularly interested in leveraging advanced architectures like Mamba (State-Space Models) for processing long-sequence physiological signals. Currently, I am leading the **Cardio-Verse (心视界)** project, an AI-driven multimodal cardiac diagnostic platform. 
 
+I have published and presented my research at top international academic venues including ICASSP, ICME, and BIBM.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.05*: &nbsp;🎉🎉 I will be traveling to Barcelona, Spain to present my first-author papers at **ICASSP 2026**.
+- *2026.01*: &nbsp;🚀🚀 Officially launched the **Cardio-Verse (心视界)** multimodal cardiac diagnostic platform project.
+- *2025.12*: &nbsp;🎉🎉 Our paper on Hierarchical Latent Diffusion Models (H-LDM) for PCG synthesis was accepted at **BIBM 2025**.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/physiomamba_cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[PhysioMamba: Physics-Informed ST-Mamba Diffusion for Controllable Echocardiogram Synthesis](#)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Chenyang Xu**, Hao Wang, et al.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**PDF**](#) | [**Code**](#)
+- Proposed a novel physics-informed spatio-temporal Mamba diffusion model designed to synthesize high-fidelity, controllable echocardiogram videos, accelerating the generation process while maintaining physiological accuracy.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [H-LDM: Hierarchical Latent Diffusion Models for Controllable and Interpretable PCG Synthesis from Clinical Metadata](#), **Chenyang Xu**, Hao Wang, et al., **BIBM 2025**
+- [Enhancing Respiratory Sound Detection Through Integrated Learning and Dynamic Convolutional Recurrent Neural Networks](#), **Chenyang Xu**, et al.
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.03* Core Participant, "Challenge Cup" (挑战杯) and "Internet+" (互联网+) Innovation Competitions.
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 📖 Education
+- *2024.09 - Present*, M.Eng. in Cyberspace Security, Xidian University (Guangzhou Research Institute).
+- *2020.09 - 2024.06*, B.Eng. in Computer Science and Technology, Tianjin University of Technology.
+- *2020.09 - 2024.06*, B.B.A. in Management Information Systems, University of Quebec.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💻 Projects & Experience
+- *2026.01 - Present*, Project Lead, **Cardio-Verse (心视界)**
+  - Leading the research and development of a multimodal cardiac diagnostic platform. Responsible for algorithm design and multimodal data integration.
