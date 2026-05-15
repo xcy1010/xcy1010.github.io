@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Master's student in Cyberspace Security at Xidian University, conducting research at the Xidian University Guangzhou Research Institute under the supervision of Prof. Hao Wang. Previously, I earned a Bachelor's degree in Computer Science and Technology from Tianjin University of Technology.
+I am a Master's student in Cyberspace Security at Xidian University, conducting research at the Faculty of Cybersecurity & Cryptology under the supervision of Prof. Hao Wang. Previously, I earned a Bachelor's degree in Computer Science and Technology from Tianjin University of Technology.
 
 My research interests primarily lie in **diffusion model acceleration**, **multimodal cardiac diagnosis**, and **neuro-symbolic reasoning**. I am particularly interested in leveraging advanced architectures like Mamba (State-Space Models) for processing long-sequence physiological signals, and exploring statistically optimal acceleration techniques for large generative models. Currently, I am leading the **Cardio-Verse (心视界)** project, an AI-driven multimodal cardiac diagnostic platform. 
 
@@ -31,7 +31,7 @@ I have published and presented my research at top international academic venues 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/eigencache_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icml——eigen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [EigenCache: Rethinking Diffusion Acceleration as Covariance-Optimal Forecasting and Submodular Information Allocation](#)
@@ -45,7 +45,7 @@ I have published and presented my research at top international academic venues 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/cross_modal_synthesis_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icml——unlocking.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Unlocking Cross-Modal Biosignal Synthesis: A Temporally-Aware VAE-Diffusion Model](#)
@@ -59,7 +59,7 @@ I have published and presented my research at top international academic venues 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/cardiac_murmur_grading_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/sci二区论文.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Cardiac murmur grading and risk analysis of cardiac diseases based on adaptable heterogeneous-modality multi-task learning](#)
@@ -73,7 +73,7 @@ I have published and presented my research at top international academic venues 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/h_ldm_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/bibm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [H-LDM: Hierarchical Latent Diffusion Models for Controllable and Interpretable PCG Synthesis from Clinical Metadata](#)
@@ -88,7 +88,7 @@ I have published and presented my research at top international academic venues 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/physiomamba_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icme73论文.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PhysioMamba: Physics-Informed ST-Mamba Diffusion for Controllable Echocardiogram Synthesis](#)
@@ -102,7 +102,7 @@ I have published and presented my research at top international academic venues 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/cardiomanifold_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icme500论文.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CardioManifold: Direct Pathological PCG Synthesis via Cyclic-Mamba and Phase-Preserving Manifold Diffusion](#)
@@ -116,7 +116,7 @@ I have published and presented my research at top international academic venues 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/enhancing_respiratory_sound_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/enhance.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Enhancing Respiratory Sound Detection Through Integrated Learning and Dynamic Convolutional Recurrent Neural Networks](#)
@@ -130,7 +130,7 @@ I have published and presented my research at top international academic venues 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/disentangling_physiology_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icassp2415.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Disentangling Physiology from Fidelity: Latent-Guided Diffusion Models for Cross-Modal Cardiac Synthesis](#)
@@ -144,7 +144,7 @@ I have published and presented my research at top international academic venues 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/adagrad_fusion_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icassp1721.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AdaGrad-Fusion: Adaptive Gradient Fusion for Memory-Efficient ECG Foundation Model Fine-Tuning](#)
@@ -158,7 +158,7 @@ I have published and presented my research at top international academic venues 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/cardiobridge_dm_cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icassp1087.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CardioBridge-DM: Bridging Cross-Cohort Heart Sound Synthesis via Rhythm-Aware Semi-Supervised Diffusion](#)
@@ -185,7 +185,7 @@ I have published and presented my research at top international academic venues 
 - *2021-2023* First-class People's Scholarship (Three Consecutive Years), Tianjin University of Technology
 
 # 📖 Education
-- *2024.09 - Present*, M.Eng. in Cyberspace Security, Xidian University (Guangzhou Research Institute).
+- *2024.09 - Present*, M.Eng. in Cyberspace Security, Xidian University (Faculty of Cybersecurity & Cryptology).
 - *2020.09 - 2024.06*, B.Eng. in Computer Science and Technology, Tianjin University of Technology.
 
 # 💻 Projects & Experience
