@@ -31,6 +31,122 @@ I have published and presented my research at top international academic venues 
 
 # 📝 Publications 
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/sci二区论文.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Cardiac murmur grading and risk analysis of cardiac diseases based on adaptable heterogeneous-modality multi-task learning](https://link.springer.com/article/10.1007/s13755-023-00249-4)
+
+**Chenyang Xu***, Xin Li*, Xinyue Zhang, et al.
+
+**Health Information Science and Systems, 2024**
+
+[**PDF**](https://link.springer.com/content/pdf/10.1007/s13755-023-00249-4.pdf) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/enhance.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enhancing Respiratory Sound Detection Through Integrated Learning and Dynamic Convolutional Recurrent Neural Networks](https://ieeexplore.ieee.org/document/10836528)
+
+**Chenyang Xu***, Yuanbing Ouyang*, Ziye Chen, Hao Wang.
+
+**BioCAS 2024**
+
+[**PDF**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10836528) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/bibm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[H-LDM: Hierarchical Latent Diffusion Models for Controllable and Interpretable PCG Synthesis from Clinical Metadata](https://ieeexplore.ieee.org/document/10821611)
+
+**Chenyang Xu**, Siming Li, Hao Wang.
+
+**BIBM 2025** (Oral Presentation)
+
+[**PDF**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10821611) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icassp2415.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Disentangling Physiology from Fidelity: Latent-Guided Diffusion Models for Cross-Modal Cardiac Synthesis](https://arxiv.org/abs/2410.15856)
+
+**Chenyang Xu**, Siming Li, Wensai Xuan, Hao Wang.
+
+**ICASSP 2026**
+
+[**PDF**](https://arxiv.org/pdf/2410.15856) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icassp1721.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AdaGrad-Fusion: Adaptive Gradient Fusion for Memory-Efficient ECG Foundation Model Fine-Tuning](https://arxiv.org/abs/2409.07065)
+
+**Chenyang Xu**, Yi Zhao, Zezhou Zhang, Hao Wang.
+
+**ICASSP 2026**
+
+[**PDF**](https://arxiv.org/pdf/2409.07065) | [**Code**](#)
+- 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icassp1087.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CardioBridge-DM: Bridging Cross-Cohort Heart Sound Synthesis via Rhythm-Aware Semi-Supervised Diffusion](https://arxiv.org/abs/2409.08051)
+
+**Chenyang Xu**, Siming Li, Hao Wang.
+
+**ICASSP 2026**
+
+[**PDF**](https://arxiv.org/pdf/2409.08051) | [**Code**](#)
+- 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icme73论文.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PhysioMamba: Physics-Informed ST-Mamba Diffusion for Controllable Echocardiogram Synthesis](#)
+
+**Chenyang Xu***, Dezhen Wang, Lin Chen, and Hao Wang*.
+
+**ICME 2026**
+
+[**PDF**](#) | [**Code**](#)
+- Proposed a novel physics-informed spatio-temporal Mamba diffusion model designed to synthesize high-fidelity, controllable echocardiogram videos, accelerating the generation process while maintaining physiological accuracy.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icme500论文.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CardioManifold: Direct Pathological PCG Synthesis via Cyclic-Mamba and Phase-Preserving Manifold Diffusion](#)
+
+**Chenyang Xu***, Dezhen Wang, and Hao Wang.
+
+**ICME 2026**
+
+[**PDF**](#) | [**Code**](#)
+- 
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icml——eigen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -59,118 +175,8 @@ I have published and presented my research at top international academic venues 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/sci二区论文.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Cardiac murmur grading and risk analysis of cardiac diseases based on adaptable heterogeneous-modality multi-task learning](#)
-
-**Chenyang Xu***, Xin Li*, Xinyue Zhang, et al.
-
-**Health Information Science and Systems, 2024**
-
-[**PDF**](#) | [**Code**](#)
-- 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/bibm.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[H-LDM: Hierarchical Latent Diffusion Models for Controllable and Interpretable PCG Synthesis from Clinical Metadata](#)
-
-**Chenyang Xu**, Siming Li, Hao Wang.
-
-**BIBM 2025** (Oral Presentation)
-
-[**PDF**](#) | [**Code**](#)
-- 
-</div>
-</div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icme73论文.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[PhysioMamba: Physics-Informed ST-Mamba Diffusion for Controllable Echocardiogram Synthesis](#)
-
-**Chenyang Xu**, et al.
-
-**ICME 2026**
-
-[**PDF**](#) | [**Code**](#)
-- Proposed a novel physics-informed spatio-temporal Mamba diffusion model designed to synthesize high-fidelity, controllable echocardiogram videos, accelerating the generation process while maintaining physiological accuracy.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icme500论文.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[CardioManifold: Direct Pathological PCG Synthesis via Cyclic-Mamba and Phase-Preserving Manifold Diffusion](#)
-
-**Chenyang Xu**, et al.
-
-**ICME 2026**
-
-[**PDF**](#) | [**Code**](#)
-- 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/enhance.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Enhancing Respiratory Sound Detection Through Integrated Learning and Dynamic Convolutional Recurrent Neural Networks](#)
-
-**Chenyang Xu***, Yuanbing Ouyang*, Ziye Chen, Hao Wang.
-
-**BioCAS 2024**
-
-[**PDF**](#) | [**Code**](#)
-- 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icassp2415.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Disentangling Physiology from Fidelity: Latent-Guided Diffusion Models for Cross-Modal Cardiac Synthesis](#)
-
-**Chenyang Xu**, Siming Li, Wensai Xuan, Hao Wang.
-
-**ICASSP 2026**
-
-[**PDF**](#) | [**Code**](#)
-- 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icassp1721.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[AdaGrad-Fusion: Adaptive Gradient Fusion for Memory-Efficient ECG Foundation Model Fine-Tuning](#)
-
-**Chenyang Xu**, Yi Zhao, Zezhou Zhang, Hao Wang.
-
-**ICASSP 2026**
-
-[**PDF**](#) | [**Code**](#)
-- 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icassp1087.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[CardioBridge-DM: Bridging Cross-Cohort Heart Sound Synthesis via Rhythm-Aware Semi-Supervised Diffusion](#)
-
-**Chenyang Xu**, Siming Li, Hao Wang.
-
-**ICASSP 2026**
-
-[**PDF**](#) | [**Code**](#)
-- 
-</div>
-</div>
 
 # 🎖 Honors and Awards
 - *2024* Second Place, IEEE BioCAS Grand Challenge
