@@ -32,47 +32,62 @@ I have published and presented my research at top international academic venues 
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/sci二区论文.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icml——eigen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Cardiac murmur grading and risk analysis of cardiac diseases based on adaptable heterogeneous-modality multi-task learning](https://link.springer.com/article/10.1007/s13755-023-00249-4)
+[EigenCache: Rethinking Diffusion Acceleration as Covariance-Optimal Forecasting and Submodular Information Allocation](#)
 
-**Chenyang Xu***, Xin Li*, Xinyue Zhang, et al.
+**Chenyang Xu**, Dezhen Wang, Lin Chen, et al.
 
-**Health Information Science and Systems, 2024**
+**ICML 2026** 
 
-[**PDF**](https://link.springer.com/content/pdf/10.1007/s13755-023-00249-4.pdf) | [**Code**](#)
+[**PDF**](#) | [**Code**](#)
+- Proposed EigenCache, a theoretically grounded framework that re-frames diffusion acceleration as a problem of covariance learning and optimal experimental design. It replaces rigid polynomial bases with a covariance-optimal forecaster (Kriging) and selects anchor timesteps via a provably near-optimal submodular information schedule, establishing a new Pareto frontier for efficient inference.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icml——unlocking.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Unlocking Cross-Modal Biosignal Synthesis: A Temporally-Aware VAE-Diffusion Model](#)
+
+**Chenyang Xu**, Dezhen Wang, Hao Wang.
+
+**ICML 2026**
+
+[**PDF**](#) | [**Code**](#)
 - 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/enhance.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icme73论文.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Enhancing Respiratory Sound Detection Through Integrated Learning and Dynamic Convolutional Recurrent Neural Networks](https://ieeexplore.ieee.org/document/10836528)
+[PhysioMamba: Physics-Informed ST-Mamba Diffusion for Controllable Echocardiogram Synthesis](#)
 
-**Chenyang Xu***, Yuanbing Ouyang*, Ziye Chen, Hao Wang.
+**Chenyang Xu***, Dezhen Wang, Lin Chen, and Hao Wang*.
 
-**BioCAS 2024**
+**ICME 2026**
 
-[**PDF**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10836528) | [**Code**](#)
+[**PDF**](#) | [**Code**](#)
+- Proposed a novel physics-informed spatio-temporal Mamba diffusion model designed to synthesize high-fidelity, controllable echocardiogram videos, accelerating the generation process while maintaining physiological accuracy.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icme500论文.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CardioManifold: Direct Pathological PCG Synthesis via Cyclic-Mamba and Phase-Preserving Manifold Diffusion](#)
+
+**Chenyang Xu***, Dezhen Wang, and Hao Wang.
+
+**ICME 2026**
+
+[**PDF**](#) | [**Code**](#)
 - 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/bibm.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[H-LDM: Hierarchical Latent Diffusion Models for Controllable and Interpretable PCG Synthesis from Clinical Metadata](https://ieeexplore.ieee.org/document/10821611)
-
-**Chenyang Xu**, Siming Li, Hao Wang.
-
-**BIBM 2025** (Oral Presentation)
-
-[**PDF**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10821611) | [**Code**](#)
-- 
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icassp2415.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -117,65 +132,49 @@ I have published and presented my research at top international academic venues 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icme73论文.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/bibm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[PhysioMamba: Physics-Informed ST-Mamba Diffusion for Controllable Echocardiogram Synthesis](#)
+[H-LDM: Hierarchical Latent Diffusion Models for Controllable and Interpretable PCG Synthesis from Clinical Metadata](https://ieeexplore.ieee.org/document/10821611)
 
-**Chenyang Xu***, Dezhen Wang, Lin Chen, and Hao Wang*.
+**Chenyang Xu**, Siming Li, Hao Wang.
 
-**ICME 2026**
+**BIBM 2025** (Oral Presentation)
 
-[**PDF**](#) | [**Code**](#)
-- Proposed a novel physics-informed spatio-temporal Mamba diffusion model designed to synthesize high-fidelity, controllable echocardiogram videos, accelerating the generation process while maintaining physiological accuracy.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icme500论文.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[CardioManifold: Direct Pathological PCG Synthesis via Cyclic-Mamba and Phase-Preserving Manifold Diffusion](#)
-
-**Chenyang Xu***, Dezhen Wang, and Hao Wang.
-
-**ICME 2026**
-
-[**PDF**](#) | [**Code**](#)
+[**PDF**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10821611) | [**Code**](#)
 - 
 </div>
 </div>
 
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icml——eigen.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/enhance.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[EigenCache: Rethinking Diffusion Acceleration as Covariance-Optimal Forecasting and Submodular Information Allocation](#)
+[Enhancing Respiratory Sound Detection Through Integrated Learning and Dynamic Convolutional Recurrent Neural Networks](https://ieeexplore.ieee.org/document/10836528)
 
-**Chenyang Xu**, Dezhen Wang, Lin Chen, et al.
+**Chenyang Xu***, Yuanbing Ouyang*, Ziye Chen, Hao Wang.
 
-**ICML 2026** 
+**BioCAS 2024**
 
-[**PDF**](#) | [**Code**](#)
-- Proposed EigenCache, a theoretically grounded framework that re-frames diffusion acceleration as a problem of covariance learning and optimal experimental design. It replaces rigid polynomial bases with a covariance-optimal forecaster (Kriging) and selects anchor timesteps via a provably near-optimal submodular information schedule, establishing a new Pareto frontier for efficient inference.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/icml——unlocking.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Unlocking Cross-Modal Biosignal Synthesis: A Temporally-Aware VAE-Diffusion Model](#)
-
-**Chenyang Xu**, Dezhen Wang, Hao Wang.
-
-**ICML 2026**
-
-[**PDF**](#) | [**Code**](#)
+[**PDF**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10836528) | [**Code**](#)
 - 
 </div>
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted</div><img src='images/sci二区论文.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Cardiac murmur grading and risk analysis of cardiac diseases based on adaptable heterogeneous-modality multi-task learning](https://link.springer.com/article/10.1007/s13755-023-00249-4)
+
+**Chenyang Xu***, Xin Li*, Xinyue Zhang, et al.
+
+**Health Information Science and Systems, 2024**
+
+[**PDF**](https://link.springer.com/content/pdf/10.1007/s13755-023-00249-4.pdf) | [**Code**](#)
+- 
+</div>
+</div>
 
 
 # 🎖 Honors and Awards
