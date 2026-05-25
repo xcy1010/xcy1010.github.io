@@ -1,0 +1,36 @@
+{% assign related_count = 0 %}
+{% capture related_items %}
+  {% for post in site.posts %}
+    {% if post.url != page.url and related_count < 3 %}
+      {% assign is_related = false %}
+      {% for category in page.categories %}
+        {% if post.categories contains category %}
+          {% assign is_related = true %}
+        {% endif %}
+      {% endfor %}
+      {% for tag in page.tags %}
+        {% if post.tags contains tag %}
+          {% assign is_related = true %}
+        {% endif %}
+      {% endfor %}
+
+      {% if is_related %}
+        <article class="related-posts__item">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          {% include post-meta.html post=post class_name="related-posts__meta" category_limit=1 %}
+        </article>
+        {% assign related_count = related_count | plus: 1 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+{% assign related_items = related_items | strip %}
+{% if related_items != "" %}
+  <section class="related-posts" aria-labelledby="related-posts-title">
+    <h2 id="related-posts-title">Related Posts</h2>
+    <div class="related-posts__list">
+      {{ related_items }}
+    </div>
+  </section>
+{% endif %}

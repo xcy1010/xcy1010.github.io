@@ -14,6 +14,8 @@ layout: default
   {{ content }}
 
   <div class="blog-index__tools" aria-label="Blog navigation">
+    <a href="{{ '/search/' | relative_url }}">Search</a>
+    <a href="{{ '/archive/' | relative_url }}">Archive</a>
     <a href="{{ '/categories/' | relative_url }}">Categories</a>
     <a href="{{ '/tags/' | relative_url }}">Tags</a>
     <a href="{{ '/feed.xml' | relative_url }}">RSS</a>

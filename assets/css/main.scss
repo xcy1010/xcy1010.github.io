@@ -162,6 +162,24 @@ h1:before, .anchor:before {
     }
 }
 
+.post-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35em;
+    color: $gray;
+    font-size: $type-size-6;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+            color: $link-color;
+            text-decoration: underline;
+        }
+    }
+}
+
 .entries-list {
     display: grid;
     gap: 1.25em;
@@ -387,12 +405,199 @@ h1:before, .anchor:before {
     }
 }
 
+.related-posts {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid $border-color;
+
+    h2 {
+        margin-top: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+        font-size: $type-size-4;
+    }
+
+    &__list {
+        display: grid;
+        gap: .75em;
+
+        @include breakpoint($medium) {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+    }
+
+    &__item {
+        padding: .75em;
+        border: 1px solid $border-color;
+        border-radius: $border-radius;
+
+        h3 {
+            margin: 0 0 .4em;
+            font-size: $type-size-5;
+        }
+
+        a {
+            color: $text-color;
+            text-decoration: none;
+
+            &:hover {
+                color: $link-color;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .35em;
+        color: $gray;
+        font-size: $type-size-7;
+
+        a {
+            color: inherit;
+        }
+    }
+}
+
 .taxonomy-index {
     &__header {
         margin-bottom: 1em;
 
         h1 {
             margin-top: 0;
+        }
+    }
+}
+
+.archive-index,
+.blog-search {
+    &__header {
+        margin-bottom: 1em;
+
+        h1 {
+            margin-top: 0;
+        }
+    }
+}
+
+.archive-year {
+    padding: 1em 0;
+    border-top: 1px solid $border-color;
+
+    h2 {
+        margin-top: 0;
+    }
+}
+
+.archive-posts {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+
+    li {
+        display: grid;
+        gap: .25em .75em;
+        margin-bottom: .5em;
+
+        @include breakpoint($small) {
+            grid-template-columns: 4.5em 1fr;
+        }
+    }
+
+    time {
+        color: $gray;
+        font-size: $type-size-6;
+    }
+}
+
+.archive-index__empty {
+    color: $gray;
+}
+
+.blog-search {
+    &__form {
+        display: grid;
+        gap: .5em;
+        margin-bottom: 1em;
+
+        @include breakpoint($small) {
+            grid-template-columns: minmax(0, 1fr) auto;
+        }
+
+        input {
+            margin-bottom: 0;
+            padding: .6em .75em;
+        }
+
+        button {
+            padding: .6em 1em;
+            color: #fff;
+            font-weight: bold;
+            background: $info-color;
+            border: 1px solid $info-color;
+            border-radius: $border-radius;
+
+            &:hover {
+                background: mix(#000, $info-color, 15%);
+            }
+        }
+    }
+
+    &__status {
+        min-height: 1.5em;
+        color: $gray;
+        font-size: $type-size-6;
+    }
+
+    &__results {
+        display: grid;
+        gap: 1em;
+    }
+}
+
+.blog-search-result {
+    padding-bottom: 1em;
+    border-bottom: 1px dashed $border-color;
+
+    time {
+        color: $gray;
+        font-size: $type-size-6;
+    }
+
+    h2 {
+        margin: .2em 0 .35em;
+        padding-bottom: 0;
+        border-bottom: 0;
+        font-size: $type-size-4;
+
+        a {
+            color: $text-color;
+            text-decoration: none;
+
+            &:hover {
+                color: $link-color;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    p {
+        margin-bottom: .75em;
+        color: mix(#fff, $text-color, 15%);
+    }
+
+    &__tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .4em;
+
+        span {
+            padding: .2em .55em;
+            color: $gray;
+            font-size: $type-size-7;
+            border: 1px solid $border-color;
+            border-radius: $border-radius;
         }
     }
 }

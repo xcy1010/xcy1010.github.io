@@ -1,0 +1,22 @@
+{% assign meta_post = include.post | default: page %}
+{% assign meta_class = include.class_name | default: "post-meta" %}
+{% assign category_limit = include.category_limit | default: meta_post.categories.size %}
+{% assign word_count = meta_post.content | strip_html | number_of_words %}
+{% assign read_minutes = word_count | plus: 179 | divided_by: 180 %}
+{% if read_minutes < 1 %}
+  {% assign read_minutes = 1 %}
+{% endif %}
+
+<div class="{{ meta_class }}">
+  {% if meta_post.date %}
+    <time datetime="{{ meta_post.date | date_to_xmlschema }}">{{ meta_post.date | date: "%B %d, %Y" }}</time>
+  {% endif %}
+  <span aria-hidden="true">/</span>
+  <span>{{ read_minutes }} min read</span>
+  {% if meta_post.categories and meta_post.categories.size > 0 %}
+    <span aria-hidden="true">/</span>
+    {% for category in meta_post.categories limit: category_limit %}
+      <a href="{{ '/categories/' | relative_url }}#{{ category | slugify }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  {% endif %}
+</div>

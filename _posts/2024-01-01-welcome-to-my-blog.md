@@ -18,9 +18,11 @@ Make sure to include the following front matter at the top of your markdown file
 
 ```yaml
 ---
-layout: default
 title:  "Your Post Title"
 date:   YYYY-MM-DD HH:MM:SS +0800
+categories: notes
+tags:
+  - research
 image: images/your-post-image.png
 excerpt: "A short summary of your post."
 ---
