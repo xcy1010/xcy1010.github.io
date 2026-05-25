@@ -2,10 +2,28 @@
 layout: default
 ---
 
-{{ content }}
+<section class="blog-index">
+  <header class="blog-index__header">
+    <p class="blog-index__eyebrow">{{ site.posts | size }} posts</p>
+    <h1>{{ page.title | default: "Blog" }}</h1>
+    {% if page.excerpt %}
+      <p>{{ page.excerpt }}</p>
+    {% endif %}
+  </header>
 
-<div class="entries-list">
-  {% for post in site.posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-</div>
+  {{ content }}
+
+  <div class="blog-index__tools" aria-label="Blog navigation">
+    <a href="{{ '/categories/' | relative_url }}">Categories</a>
+    <a href="{{ '/tags/' | relative_url }}">Tags</a>
+    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+  </div>
+
+  <div class="entries-list">
+    {% for post in site.posts %}
+      {% include post-card.html %}
+    {% else %}
+      <p class="blog-index__empty">No posts yet.</p>
+    {% endfor %}
+  </div>
+</section>

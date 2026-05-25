@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<header class="post-header">
+  <p class="post-header__eyebrow">Blog</p>
+  <h1 class="post-header__title" itemprop="headline">{{ page.title }}</h1>
+  <div class="post-header__meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% if page.categories and page.categories.size > 0 %}
+      <span aria-hidden="true">/</span>
+      {% for category in page.categories %}
+        <a href="{{ '/categories/' | relative_url }}#{{ category | slugify }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    {% endif %}
+  </div>
+
+  {% if page.tags and page.tags.size > 0 %}
+    <div class="post-header__tags" aria-label="Post tags">
+      {% for tag in page.tags %}
+        <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+</header>
+
+{% if page.image %}
+  <figure class="post-hero">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}">
+  </figure>
+{% endif %}
+
+{{ content }}
+
+<nav class="post-pager" aria-label="Post navigation">
+  {% if page.previous %}
+    <a class="post-pager__item" href="{{ page.previous.url | relative_url }}">
+      <span>Previous</span>
+      {{ page.previous.title }}
+    </a>
+  {% else %}
+    <span class="post-pager__item post-pager__item--empty"></span>
+  {% endif %}
+
+  {% if page.next %}
+    <a class="post-pager__item post-pager__item--next" href="{{ page.next.url | relative_url }}">
+      <span>Next</span>
+      {{ page.next.title }}
+    </a>
+  {% else %}
+    <span class="post-pager__item post-pager__item--empty"></span>
+  {% endif %}
+</nav>

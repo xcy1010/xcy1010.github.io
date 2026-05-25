@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: post
 title:  "Welcome to My Blog"
 date:   2024-01-01 10:00:00 +0800
 categories: jekyll update
+tags:
+  - jekyll
+  - notes
 image: images/500x300.png
 excerpt: "This is a sample post to demonstrate the new blog layout. You can add an image and an excerpt to each post's front matter."
 ---
